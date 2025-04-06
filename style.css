@@ -1,16 +1,23 @@
 body {
     background-color: black;
     color: #54DB54;
-    font-size: larger;
+    font-size: x-large;
     margin: 0;
     padding: 0; 
+    font-family: Reactor7;
     
     .container {
-        width: 50%;
+        width: 1300px;
         height: 2000px;
-        margin: 0 auto; 
+        margin-left: auto;
+        margin-right: auto;
         border-color: #54DB54;
         border-left-style: solid;
         border-right-style: solid;
+    }
+
+    @font-face {
+        font-family: Reactor7;
+        src: url(Reactor7.tff);
     }
 }
