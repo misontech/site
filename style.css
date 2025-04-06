@@ -2,4 +2,15 @@ body {
     background-color: black;
     color: #54DB54;
     font-size: larger;
+    margin: 0;
+    padding: 0; 
+    
+    .container {
+        width: 50%;
+        height: 2000px;
+        margin: 0 auto; 
+        border-color: #54DB54;
+        border-left-style: solid;
+        border-right-style: solid;
+    }
 }
