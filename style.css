@@ -14,6 +14,7 @@ body {
         border-color: #54DB54;
         border-left-style: solid;
         border-right-style: solid;
+        background-color: black;
     }
 
     @font-face {
