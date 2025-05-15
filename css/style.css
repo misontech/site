@@ -38,8 +38,45 @@ body {
         column-gap: 20px;
     }
 
+    .flex-ascii {
+        display: flex;
+    }
+
     @font-face {
         font-family: Reactor7;
         src: url(Reactor7.tff);
+    }
+
+    .wide-text {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: xx-large;
+    }
+
+    #ascii-text {
+        margin-top: 5%;
+        margin-bottom: auto;
+        margin-left: -2.5%;
+        margin-right: 5%;
+        font-size: 17.5px;
+    }
+
+    
+    #list-header {
+        margin-top: -15%; 
+        margin-bottom: auto;
+        margin-left: 10%;
+        margin-right: auto;
+        font-size:40px;
+        white-space: nowrap;
+    }
+
+    .list-text {
+        margin-top: 3%;
+        margin-bottom: auto;
+        margin-left: 17.5%;
+        margin-right: auto;
+        color: yellow;
+        font-size:35px
     }
 }
